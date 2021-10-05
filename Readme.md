@@ -18,13 +18,13 @@ In this program you can order different types of sodas, namely sprite, Coca Cola
    
    // CocaCola order details.
         System.out.println("Order 1:");
-        System.out.println(cocaCola.getSodaDescription() + " Cost: Rs." + cocaCola.cost());
+        System.out.println(cocaCola.getSodaDescription() + " Cost: " + cocaCola.cost());
         System.out.println("");
 ~~~
 #### Output:
 ~~~
 Order 1:
-CocaCola, Vanilla Ice-Cream, Ice Cubes Cost: Rs.55.290000000000006
+CocaCola, Vanilla Ice-Cream, Ice Cubes Cost: 55.290000000000006
 ~~~
 
 ###Order 2:
@@ -35,13 +35,13 @@ CocaCola, Vanilla Ice-Cream, Ice Cubes Cost: Rs.55.290000000000006
    
    /// Fanta order details.
         System.out.println("Order 2:");
-        System.out.println(fanta.getSodaDescription() + " Cost: Rs." + fanta.cost());
+        System.out.println(fanta.getSodaDescription() + " Cost: " + fanta.cost());
         System.out.println("");
 ~~~
 #### Output:
 ~~~
 Order 2:
-Fanta Cost: Rs.32.29
+Fanta Cost: 32.29
 ~~~
 
 ###Order 3:
@@ -53,11 +53,11 @@ Fanta Cost: Rs.32.29
    
    // Sprite order details.
         System.out.println("Order 3:");
-        System.out.println(sprite.getSodaDescription() + " Cost: Rs." + sprite.cost());
+        System.out.println(sprite.getSodaDescription() + " Cost: " + sprite.cost());
         System.out.println("");
 ~~~
 #### Output:
 ~~~
 Order 3:
-Sprite, Ice Cubes Cost: Rs.33.739999999999995
+Sprite, Ice Cubes Cost: 33.739999999999995
 ~~~

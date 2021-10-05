@@ -22,15 +22,15 @@ public class Main {
 
         // CocaCola order details.
         System.out.println("Order 1:");
-        System.out.println(cocaCola.getSodaDescription() + " Cost: Rs." + cocaCola.cost());
+        System.out.println(cocaCola.getSodaDescription() + " Cost:" + cocaCola.cost());
         System.out.println("");
         // Fanta order details.
         System.out.println("Order 2:");
-        System.out.println(fanta.getSodaDescription() + " Cost: Rs." + fanta.cost());
+        System.out.println(fanta.getSodaDescription() + " Cost:" + fanta.cost());
         System.out.println("");
         // Sprite order details.
         System.out.println("Order 3:");
-        System.out.println(sprite.getSodaDescription() + " Cost: Rs." + sprite.cost());
+        System.out.println(sprite.getSodaDescription() + " Cost:" + sprite.cost());
         System.out.println("");
 
     }
