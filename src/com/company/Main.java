@@ -3,11 +3,11 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        // Ordering beverages.
-        orderBeverages();
+        // Ordering sodas.
+        orderSodas();
     }
 
-    private static void orderBeverages() {
+    private static void orderSodas() {
         // Ordering Coke-Float by combining CocaCola and Vanilla ice cream.
         Soda cocaCola = new CocaCola();
         cocaCola = new VanillaIceCream(cocaCola);
